@@ -13,11 +13,15 @@
  - [Player datastructure & functions](player.md)
  - [Streaming data](stream.md)
  - [Voice chat](voice.md)
- - [Analytics](web.md)
+ - [Analytics & Web API](web.md)
 ## Getting started
 ### Notes for later
 #### The `_reliable` parameter in a function means whether it is okay to miss packets (`false`) and save up resending or if it is imperative that the packet arrives (`true`)
 ## Initialization
+### Prelude
+Add the `obj_net_web` object to your game's startup room
+Get a NetGM2 application key and analytics page
+### Interlude
 Whenever you want to create a connection to a server, use
 ```gml
 net_connect(_ip, _port)
