@@ -35,7 +35,6 @@ net_set_config({
 })
 ```
 ```gml
-```gml
 /*
   Make sure to set the player's name!
 */
