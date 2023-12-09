@@ -13,7 +13,7 @@
  - [Player datastructure & functions](player.md)
  - [Streaming data](stream.md)
  - [Voice chat](voice.md)
- - [Analytics](https://kenanyazbeck.com/netgm2/analytics)
+ - [Analytics](web.md)
 ## Getting started
 ### Notes for later
 #### The `_reliable` parameter in a function means whether it is okay to miss packets (`false`) and save up resending or if it is imperative that the packet arrives (`true`)
