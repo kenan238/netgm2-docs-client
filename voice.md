@@ -11,3 +11,9 @@ Using streams to transfer audio, there's an additional voice chat feature
 */
 function net_voice_init() -> N/A
 ```
+```gml
+/*
+  Pass in the recorder number (call this BEFORE init)
+*/
+function net_voice_set_recorder(_recorder) -> N/A
+```
