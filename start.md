@@ -65,3 +65,7 @@ enum NET_STATE
 
 function net_get_state() -> NET_STATE
 ```
+### How can I get the server's name?
+```gml
+function net_get_server_name() -> string
+```
