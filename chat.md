@@ -1,4 +1,6 @@
-# Administration
+### [< BACK](start.md)
+
+# Chat
 ## Synopsis:
 Chat system, self explanatory
 ## Code documentation

@@ -1,3 +1,5 @@
+### [< BACK](start.md)
+
 # Administration
 ## Synopsis:
 Administration commands that can be sent to the server, they only work if the specified user has enough permissions and they can be added dynamically by modifying the server and accessing the administration functions in C#

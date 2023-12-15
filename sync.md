@@ -1,4 +1,6 @@
-# Administration
+### [< BACK](start.md)
+
+# Synchronization
 ## Synopsis:
 Synchronizing objects, object variables, and whatnot
 ## Code documentation

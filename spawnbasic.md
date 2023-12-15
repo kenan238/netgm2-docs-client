@@ -1,4 +1,6 @@
-# Administration
+### [< BACK](start.md)
+
+# Basic Spawning
 ## Synopsis:
 Spawn instances without having to synchronize them later, good to use for effects
 ## Code documentation

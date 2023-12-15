@@ -1,4 +1,6 @@
-# Administration
+### [< BACK](start.md)
+
+# RPC
 ## Synopsis:
 Functions that can be called from the opposite side, for example
 

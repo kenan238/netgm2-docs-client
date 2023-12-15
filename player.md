@@ -1,4 +1,6 @@
-# Administration
+### [< BACK](start.md)
+
+# Player
 ## Synopsis:
 Functions for players
 ## Code documentation

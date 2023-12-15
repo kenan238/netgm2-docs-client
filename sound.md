@@ -1,4 +1,6 @@
-# Administration
+### [< BACK](start.md)
+
+# Sound
 ## Synopsis:
 Sounds that are played from other players
 ## Code documentation
