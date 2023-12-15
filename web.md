@@ -15,3 +15,13 @@ function net_web_get_servers(_callback) -> N/A
 */
 #macro net_key "[KEY HERE]"
 ```
+```gml
+/*
+  Gets the latest version ID of NetGM2 from the servers
+  NOTE: _callback takes the following arguments: _callback(_succeded: bool, servers: VersionStruct)
+
+  VersionStruct is a struct with a single key, "version", which contains the latest version.
+*/
+
+function net_web_get_version(_callback) -> N/A
+```
