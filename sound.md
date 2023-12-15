@@ -1,6 +1,6 @@
 ### [< BACK](start.md)
 
-# Sound
+# Network sounds
 ## Synopsis:
 Sounds that are played from other players
 ## Code documentation

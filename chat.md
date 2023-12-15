@@ -1,6 +1,6 @@
 ### [< BACK](start.md)
 
-# Chat
+# Chat system
 ## Synopsis:
 Chat system, self explanatory
 ## Code documentation

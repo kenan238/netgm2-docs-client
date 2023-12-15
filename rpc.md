@@ -1,6 +1,6 @@
 ### [< BACK](start.md)
 
-# RPC
+# RPC (Remote Procedural Calls)
 ## Synopsis:
 Functions that can be called from the opposite side, for example
 

@@ -1,6 +1,6 @@
 ### [< BACK](start.md)
 
-# Stream
+# Streaming data
 ## Synopsis:
 Streams are continuous _streams_ of bytes that can transfer any datatype, clients can subscribe to any player's stream and receive all the bytes being transferred 
 ## Code documentation

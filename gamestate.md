@@ -1,6 +1,6 @@
 ### [< BACK](start.md)
 
-# Game state
+# Global game state
 ## Synopsis:
 A global struct that can be modified from the server and client
 ## Code documentation
