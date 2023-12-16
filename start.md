@@ -14,9 +14,11 @@
  - [Streaming data](stream.md)
  - [Voice chat](voice.md)
  - [Analytics & Web API](web.md)
+ - [Debugging](debug.md)
 ## Getting started
 ### Notes for later
 #### The `_reliable` parameter in a function means whether it is okay to miss packets (`false`) and save up resending or if it is imperative that the packet arrives (`true`)
+#### Functions that start with two underscores are not meant to be used and are internal functions
 ## Initialization
 ### Prelude
 Add the `obj_net_web` object to your game's startup room
