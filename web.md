@@ -12,8 +12,8 @@ NetGM2 analytics & api functions.
 function net_web_get_servers(_callback) -> N/A
 ```
 ```gml
-[label Net.gml]
 /*
+  * Inside of Net script *
   The NetGM2 api key for your app
 */
 #macro net_key "[KEY HERE]"
