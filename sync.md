@@ -63,3 +63,9 @@ function net_owns_sync(_nid) -> bool (also a real internally)
 */
 function net_sync_owner(_nid) -> PlayerStruct | noone
 ```
+```gml
+/*
+  Returns the NetSync or noone
+*/
+function net_sync_get(_nid) -> NetSync | noone
+```
