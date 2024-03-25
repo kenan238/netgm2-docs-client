@@ -15,6 +15,7 @@
  - [Voice chat](voice.md)
  - [Analytics & Web API](web.md)
  - [Debugging](debug.md)
+ - [Steam Integration](steam.md)
 ## Getting started
 ### Notes for later
 #### The `_reliable` parameter in a function means whether it is okay to miss packets (`false`) and save up resending or if it is imperative that the packet arrives (`true`)
