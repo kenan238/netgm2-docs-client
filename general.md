@@ -64,3 +64,29 @@ function net_gc_workload() -> real
 */
 function net_add_custom_packet(_type, _callback) -> real
 ```
+### Getting the GC workload
+```gml
+function net_gc_workload() -> real
+```
+### Shorthand for comparing network id (Am I this ID or not?)
+```gml
+function net_iam(n_id) -> boolean
+```
+### Get a synced object's owner
+```gml
+/*
+  returns -1 if fails
+*/
+function net_heis(n_id) -> real
+```
+### Get a static ID for an instance in a room
+If an instance has been placed in a room, you can get its __static__ ID, that will not change.
+It is the same as the server's `GameMaker.Room.Instance.Order (uint)`, which can help in cross-referencing a room's instance between the _server_ and _client_.
+
+```gml
+/*
+  _room: room where the instance is located
+  _inst_id: instance's id property
+*/
+function net_get_static_id(_room, _inst_id)
+```

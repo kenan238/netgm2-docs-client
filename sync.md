@@ -6,7 +6,8 @@ Synchronizing objects, object variables, and whatnot
 ## Code documentation
 ### Prelude
 ```gml
-enum NET_SYNC_OWNER {
+enum NET_SYNC_OWNER 
+{
 	NOONE,
 	SERVER,
 	PLAYER
@@ -68,4 +69,53 @@ function net_sync_owner(_nid) -> PlayerStruct | noone
   Returns the NetSync or noone
 */
 function net_sync_get(_nid) -> NetSync | noone
+```
+## Signal system
+You can send "signals" from a client that doesn't own a synced object to the owner, for interactions and such
+
+
+### Example:
+> Player 1 punches player 2's object
+
+> Player 1 sends signal
+
+> Player 2 receives signal and plays animation
+
+
+### Interlude
+```gml
+/*
+  nid: is the network id
+  data: is the information to send over to the owner
+  reliable: is a boolean determining if the request should always arrive or if it can be dismissed in exchange for less bandwidth strain
+*/
+function net_sync_send_signal_from(nid, data, reliable) -> N/A
+```
+```gml
+/*
+  nid: is the network id
+  handler: callback that takes in the following arguments in this order:
+  * from: id of sender
+  * data: data passed
+  * this: this synced object (self)
+*/
+function net_sync_set_signal_handler(nid, handler) -> N/A
+```
+## Variable dependencies
+### Synopsis:
+Normally, NetGM2 only synchronizes variables that change.
+
+However, when synchronizing **non-reliably**, some updates may be lost.
+
+Sometimes, that is all good, but for some values _(like X and Y position)_, you'd want to update them both if one changes.
+
+You can make a variable _depend_ on another, __if the dependency updates__, the __variable will update with it__.
+### Interlude:
+```gml
+/*
+  _sobj: the synced object struct
+  _var: the target variable
+  dependency: the variable to depend on
+  */
+function net_sync_add_var_dependency(_sobj, _var, dependency)
 ```
