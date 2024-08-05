@@ -24,6 +24,8 @@
 ### Prelude
 Add the `obj_net_web` object to your game's startup room
 
+Call the `net_init` function.
+
 Get a NetGM2 application key and analytics page
 ### Interlude
 Whenever you want to create a connection to a server, use
