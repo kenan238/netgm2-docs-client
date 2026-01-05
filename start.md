@@ -13,7 +13,6 @@
  - [Player datastructure & functions](player.md)
  - [Streaming data](stream.md)
  - [Voice chat](voice.md)
- - [Analytics & Web API](web.md)
  - [Debugging](debug.md)
  - [Steam Integration](steam.md)
 ## Getting started
@@ -38,10 +37,7 @@ net_set_config({
   timeout: number, /* of milliseconds until we time out */
   p2p_handler: function, /* Gets called whenever you receive a p2p message, arguments being: callback(_recipient_id, _data) */
   uses_accounts: bool, /* Does the server use an account system? */
-  discord: DiscordStruct {
-    app_id: string,
-    custom_presence: bool /* Whether you want to use the built in NetGM2 presence or want to use your own code, needs _NekoPresence_ */
-  }
+  uses_files: bool /* Does the server have custom resources that need to be downloaded automatically on connect? */
 })
 ```
 ```gml
