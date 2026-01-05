@@ -90,3 +90,13 @@ It is the same as the server's `GameMaker.Room.Instance.Order (uint)`, which can
 */
 function net_get_static_id(_room, _inst_id)
 ```
+### Getting the current tick
+The tick is like a sort of _time anchor_ you can use to _annotate specific actions with their time._
+It's a number that starts incrementing from the moment the server starts up. NetGM2 makes sure to try and synchronize it as closely as possible with the clients, by accounting for delays, and occasional re-syncs.
+
+```gml
+/*
+  returns the current tick, 0 if not connected
+*/
+function net_get_tick() -> real
+```
